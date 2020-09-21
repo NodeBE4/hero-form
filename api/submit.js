@@ -55,6 +55,10 @@ function process_url(url){
     urlbody[1] = 'wiki'
     newurl = urlbody.join('/')
     newurl = newurl.split("#")[0]
+  }else if (urlbody[0] == 'baike.baidu.com'){
+    urlbody[1] = 'item'
+    newurl = urlbody.join('/')
+    newurl = newurl.split("#")[0]
   }else{
     return null
   }
