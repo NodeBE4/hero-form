@@ -52,7 +52,7 @@ module.exports = async (req, res) => {
   keys.map(key =>{
     let content = ` `
     if (params[key]){
-      content = params[key].trim()
+      content = params[key].replace(/#/g,'').trim()
     }
     let text = `### ${form[key]}
 ${content}
