@@ -43,10 +43,11 @@ module.exports = async (req, res) => {
   let params = req.body
   console.log(params)
   let category = params['category'].trim()
-  let form = forms.filter(function (item){
+  let formsel = forms.filter(function (item){
     let keys = Object.keys(item)
     return keys.includes(category)
   })
+  let form = formsel[0]
   let keys = Object.keys(form)
   let body
   keys.map(key =>{
