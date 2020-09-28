@@ -49,7 +49,7 @@ module.exports = async (req, res) => {
   })
   let form = formsel[0]
   let keys = Object.keys(form)
-  let body
+  let body = ''
   keys.map(key =>{
     let content = ` `
     if (params[key]){
