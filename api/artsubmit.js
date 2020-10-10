@@ -31,6 +31,13 @@ let forms = [
     "reason":"推荐理由"
   },
   {
+    "talk":"讲座名称",
+    "url":"视频 url",
+    "author":"作者",
+    "year":"年代",
+    "reason":"推荐理由"
+  },
+  {
     "movie":"影视作品名称",
     "director":"导演",
     "year":"年代",
