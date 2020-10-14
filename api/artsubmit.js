@@ -33,7 +33,7 @@ let forms = [
   {
     "talk":"讲座名称",
     "url":"视频 url",
-    "author":"作者",
+    "author":"讲者",
     "year":"年代",
     "reason":"推荐理由"
   },
